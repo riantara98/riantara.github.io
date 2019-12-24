@@ -21,11 +21,11 @@
         "display5Size": 1.8,
         "display7Font": "Roboto",
         "display7Size": "0.8",
-        "display4Font": "Yanone Kaffeesatz",
+        "display4Font": "Palanquin Dark",
         "display4Size": 0.9,
         "isRoundedButtons": true,
         "isScrollToTopButton": true,
-        "arrowColor": "#4ea2e3"
+        "arrowColor": "#00e2ff"
       },
       "additionalSetColors": [
         "#00cfff",
@@ -49,6 +49,11 @@
         "css": "'Yanone Kaffeesatz', sans-serif",
         "name": "Yanone Kaffeesatz",
         "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,500,600,700"
+      },
+      {
+        "css": "'Palanquin Dark', sans-serif",
+        "name": "Palanquin Dark",
+        "url": "https://fonts.googleapis.com/css?family=Palanquin+Dark:400,500,600,700"
       }
     ],
     "uniqCompNum": 14,
@@ -71,8 +76,9 @@
           "_styles": {
             "min-height": "80px",
             ".brand-name": {
-              "color": "#ffffff",
-              "margin": "0"
+              "color": "#0dd1ff",
+              "margin": "0",
+              "text-align": "right"
             },
             ".nav-item:focus, .nav-link:focus": {
               "outline": "none"
