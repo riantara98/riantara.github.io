@@ -710,114 +710,29 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-rMoAKYSEl7 {
-  background: #ffffff;
+.cid-rMpGw605MN {
+  background-image: url("../../../assets/images/picsart-12-31-08.40.27-2000x2000.jpg");
 }
-.cid-rMoAKYSEl7 .image-block {
-  margin: auto;
-  width: 100% !important;
-}
-.cid-rMoAKYSEl7 .mbr-figure {
-  margin: 0 auto;
-}
-.cid-rMoAKYSEl7 figcaption {
-  position: relative;
-}
-.cid-rMoAKYSEl7 figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rMoAKYSEl7 .image-block {
-    width: 100% !important;
-  }
-}
-.cid-rMoAKYSEl7 .mbr-figure-caption div {
-  text-align: center;
-  color: #149dcc;
-}
-.cid-rMoBrsMDiQ {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #232323;
-}
-.cid-rMoBrsMDiQ .row-links {
-  width: 100%;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.cid-rMoBrsMDiQ .social-row {
-  width: 100%;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.cid-rMoBrsMDiQ .media-container-row {
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.cid-rMoBrsMDiQ .media-container-row .foot-menu {
-  list-style: none;
+.cid-rMpGw605MN .icons-media-container {
   display: flex;
   -webkit-justify-content: center;
   justify-content: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 0;
-  margin-bottom: 0;
+  padding-top: 4rem;
 }
-.cid-rMoBrsMDiQ .media-container-row .foot-menu li {
-  padding: 0 1rem 1rem 1rem;
-}
-.cid-rMoBrsMDiQ .media-container-row .foot-menu li p {
-  margin: 0;
-}
-.cid-rMoBrsMDiQ .media-container-row .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
-}
-.cid-rMoBrsMDiQ .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
+.cid-rMpGw605MN .icons-media-container .mbr-iconfont {
+  font-size: 96px;
   color: #ffffff;
 }
-.cid-rMoBrsMDiQ .media-container-row .social-list .soc-item {
-  margin: 0 .5rem;
+.cid-rMpGw605MN .icons-media-container .icon-block {
+  padding-bottom: 1rem;
 }
-.cid-rMoBrsMDiQ .media-container-row .social-list a {
-  margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+.cid-rMpGw605MN .mbr-text {
+  color: #ffffff;
 }
-.cid-rMoBrsMDiQ .media-container-row .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-rMoBrsMDiQ .media-container-row .social-list {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-}
-.cid-rMoBrsMDiQ .media-container-row .row-copirayt {
-  word-break: break-word;
-  width: 100%;
-}
-.cid-rMoBrsMDiQ .media-container-row .row-copirayt p {
-  width: 100%;
-}
-.cid-rMoBrsMDiQ foot-menu-item P {
-  text-align: right;
-}
-.cid-rMoBrsMDiQ foot-menu-item {
-  text-align: right;
+.cid-rMpGw605MN .card {
+  padding-bottom: 1.5rem;
 }
