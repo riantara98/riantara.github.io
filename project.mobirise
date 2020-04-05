@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-03-28_2057",
-    "currentPage": "index.html",
+    "currentPage": "html.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -29,14 +29,15 @@
     "versionPublish": "4.11.6"
   },
   "pages": {
-    "index.html": {
+    "html.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "riantara",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/riantara1-2-740x738.png"
       },
       "components": [
         {
