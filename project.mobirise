@@ -26,7 +26,8 @@
     "versionFirst": "4.11.6",
     "siteFonts": [],
     "uniqCompNum": 7,
-    "versionPublish": "4.11.6"
+    "versionPublish": "4.11.6",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "html.html": {
@@ -141,11 +142,11 @@
             "showText": false,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "44",
+            "imageSize": "58",
             "paddingTop": "4",
-            "paddingBottom": "5",
+            "paddingBottom": "4",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/rose-1920x1080.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/art-1920x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -155,7 +156,7 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.3"
           },
           "media": {
             "image": {
