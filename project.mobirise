@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Site-03-28_2057",
-    "currentPage": "html.html",
+    "name": "Site-04-29_0202",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -19,58 +19,25 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      },
-      "additionalSetColors": []
+      }
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 7,
-    "versionPublish": "4.11.6",
-    "screenshot": "screenshot.png"
+    "uniqCompNum": 0,
+    "versionPublish": "4.11.6"
   },
   "pages": {
-    "html.html": {
+    "index.html": {
       "settings": {
         "main": true,
-        "title": "riantara",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/riantara1-2-740x738.png"
+        "html_before": ""
       },
-      "components": [
-        {
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#c1c1c1",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": "0"
-          },
-          "text": "Copyright ©<b> riantara.com</b>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-1",
-          "_styles": {
-            "P": {
-              "color": "#000000",
-              "font-family": "'Noto Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
-              "text-align": "center",
-              "font-size": "13px"
-            }
-          }
-        }
-      ]
+      "components": []
     }
   }
 }
