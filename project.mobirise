@@ -72,7 +72,7 @@
               }
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#ffffff",
+              "color": "#000000",
               "text-align": "left"
             }
           },
