@@ -711,13 +711,13 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-rYN2hyEB5m {
-  background-image: url("../../../assets/images/ecopetit.cat-rosas-wallpaper-295222-2000x1250.png");
+  background-color: #000000;
 }
 .cid-rYN2hyEB5m .mbr-section-subtitle {
   letter-spacing: .2rem;
 }
 .cid-rYN2hyEB5m .media-container-column {
-  background-color: #8ed7ef;
+  background-color: #000000;
 }
 @media (max-width: 767px) {
   .cid-rYN2hyEB5m .media-container-column {
@@ -726,6 +726,6 @@ section.lazy-placeholder:after {
 }
 .cid-rYN2hyEB5m .mbr-text,
 .cid-rYN2hyEB5m .mbr-section-btn {
-  color: #232323;
+  color: #ffffff;
   text-align: left;
 }
