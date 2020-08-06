@@ -710,13 +710,31 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-s6Vn2aMcyS {
-  background-image: url("../../../assets/images/drawing-4-792x635.png");
+.cid-s6VqdSwTRs {
+  background: #000000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-s6VqdSwTRs .image-block {
+  margin: auto;
+}
+.cid-s6VqdSwTRs figcaption {
+  position: relative;
+}
+.cid-s6VqdSwTRs figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-s6VqdSwTRs .image-block {
+    width: 100% !important;
+  }
 }
 .cid-s6Vn4JJpmO {
   padding-top: 30px;
   padding-bottom: 15px;
-  background-color: #2e2e2e;
+  background-color: #000000;
 }
 .cid-s6Vn4JJpmO .row-links {
   width: 100%;
