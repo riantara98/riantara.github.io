@@ -625,6 +625,22 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-sbIYC2AHTt {
-  background-image: url("../../../assets/images/untitled-1-640x480.png");
+.cid-sbJ0dzXQqE {
+  background-image: url("../../../assets/images/1599628061989-660118787-2000x2500.jpg");
+}
+.cid-sbJ0dzXQqE h1 {
+  color: #616161;
+}
+.cid-sbJ0dzXQqE h2,
+.cid-sbJ0dzXQqE h3,
+.cid-sbJ0dzXQqE p {
+  color: #767676;
+}
+.cid-sbJ0dzXQqE .mbr-section-subtitle {
+  font-style: italic;
+}
+.cid-sbJ0vT0BAV {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #081223;
 }
