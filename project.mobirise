@@ -1,41 +1,45 @@
 {
   "settings": {
-    "name": "Site-10-18_0014",
+    "name": "My Site",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise5",
-      "title": "Mobirise 5",
+      "name": "mobirise4",
+      "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#6592e6",
-        "secondaryColor": "#ff6666",
-        "successColor": "#40b0bf",
-        "infoColor": "#47b5ed",
-        "warningColor": "#FFE161",
-        "dangerColor": "#ff9966",
-        "mainFont": "Jost",
-        "display1Font": "Jost",
-        "display1Size": 4.6,
-        "display2Font": "Jost",
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
         "display2Size": 3,
-        "display5Font": "Jost",
-        "display5Size": 2,
-        "display7Font": "Jost",
-        "display7Size": 1.2,
-        "display4Font": "Jost",
-        "display4Size": 1.1,
-        "isRoundedButtons": false,
-        "isGhostButtonBorder": false,
-        "underlinedLinks": false,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "5.2.0",
-    "siteFonts": [],
-    "uniqCompNum": 1,
-    "versionPublish": "5.2.0"
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "versionFirst": "4.7.6",
+    "uniqCompNum": 6,
+    "versionPublish": "4.12.4"
   },
   "pages": {
     "index.html": {
@@ -63,7 +67,7 @@
             "paddingTop": 4,
             "paddingBottom": 4,
             "bgColorRadio": true,
-            "bgColor": "#000000",
+            "bgColor": "#232323",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": true,
@@ -79,8 +83,36 @@
             "Extension"
           ],
           "_name": "instagram-feed-block",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "instagram-feed-block-0"
+          "_anchor": "instagram-feed-block-4",
+          "_styles": {
+            ".inst__title": {
+              "color": "#ff3366"
+            }
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".media-container-row .mbr-text": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © riantara</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sewHEQ4sPH",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-5"
         }
       ]
     }
