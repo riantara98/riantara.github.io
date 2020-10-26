@@ -27,7 +27,9 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#333333"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [
@@ -38,14 +40,14 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 6,
+    "uniqCompNum": 7,
     "versionPublish": "4.12.4"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "riantara",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
